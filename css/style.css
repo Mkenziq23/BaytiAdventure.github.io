@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #555;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.produk-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .produk-card {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .produk-card img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .produk-card h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .produk-card p {
+    margin: 0;
+    font-size: 16px;
+  }
+
+
+   .container {
+    text-align: center;
+  }
+
+  .containerprice img{
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .containerlogo img{
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .container-trip {
+      display: inline-block;
+      width: 30%;
+      box-sizing: border-box;
+      padding: 5px;
+      text-align: justify;
+      vertical-align: top;
+  }
+
+  .containertrip img {
+      max-width: 100%;
+      height: auto;
+  }
+
+  .container-event {
+    display: inline-block;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: justify;
+    vertical-align: top;
+}
+
+.containerevent img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+    img {
+    width: 960px;
+    height: 540PX;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+.map iframe {
+    margin: 0 25rem;
+    background-color: black ;
+}
+
+footer .icon {
+    padding: 1rem;
+}
+
+footer .icon a{
+    color: #ffff;
+    margin: 1rem;
+}
+
+footer .icon a:hover{
+    color: black;
+}
+
+footer {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
